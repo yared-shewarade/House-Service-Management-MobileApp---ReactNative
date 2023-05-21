@@ -1,4 +1,5 @@
-import react from 'expo-status-bar';
+//import react from 'expo-status-bar';
+import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import HouseCleanImage from './assets/HouseCleanImage.png'
 
@@ -9,6 +10,7 @@ import { FlatList } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
+      <Text style={styles.mainTitle}>House Cleaning Service</Text>
       <View style={styles.header}>
         <Image source={require('./assets/HouseCleanImage.png')}
         style={styles.headerImage}
@@ -32,9 +34,16 @@ const styles = StyleSheet.create({
     //justifyContent: 'center',
     padding: 16
   },
+  mainTitle: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    //marginBottom: 10,
+    color: 'red',
+    alignItems: 'center'
+  },
   title: {
     fontSize: 24,
-    fonrtWeight: 'bold',
+    fontWeight: 'bold',
     marginBottom: 16
   },
   subtitle: {
