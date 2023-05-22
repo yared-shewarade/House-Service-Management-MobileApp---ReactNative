@@ -10,7 +10,7 @@ import { FlatList } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.mainTitle}>House Cleaning Service</Text>
+      <Text style={styles.mainTitle}>House Management Service</Text>
       <View style={styles.header}>
         <Image source={require('./assets/HouseCleanImage.png')}
         style={styles.headerImage}
