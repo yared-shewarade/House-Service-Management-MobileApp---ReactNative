@@ -45,11 +45,11 @@ export default function App() {
               );
             },
           })}
-          tabBarOptions={{
-            activeTintColor: 'green',
-            inactiveTintColor: 'gray',
-            showIcon: true,
-            style: { backgroundColor: 'lightblue' },
+          screenOptions={{
+            tabBarActiveTintColor: 'green',
+            tabBarInactiveTintColor: 'gray',
+            tabBarShowIcon: true,
+            tabBarStyle: { backgroundColor: 'lightblue' },
           }}
         >
           <Tab.Screen name="Home" component={HomeScreen} />
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: 'blue',
     marginBottom: 10,
-    textDecorationLine: 'underline', // Add underline to the mainTitle
+    //textDecorationLine: 'underline', // Add underline to the mainTitle
   },
   logo: {
     width: '100%',
