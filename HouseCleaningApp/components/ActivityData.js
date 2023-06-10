@@ -5,7 +5,7 @@ const activityData = {
                   id: 1,
                   title: 'Dusting',
                   description: 'Dust all furniture.',
-                  //image: require('./assets/dusting.jpg'),
+                  image: require('../assets/House/Bedroom.jpg'),
                 },
                 {
                   id: 2,
@@ -44,7 +44,7 @@ const activityData = {
                   id: 7,
                   title: 'Dusting',
                   description: 'Dust all surfaces, including light fixtures and decor.',
-                  //image: require('./assets/dusting.jpg'),
+                  image: require('../assets/House/Bathroom.jpg'),
                 },
                 {
                   id: 8,
@@ -83,7 +83,7 @@ const activityData = {
                     id: 13,
                     title: 'Dusting',
                     description: 'Dust tops of kitchen cabinets and appliances.',
-                    //image: require('./assets/dusting.jpg'),
+                    image: require('../assets/House/Kitchen.jpg'),
                   },
                   {
                     id: 14,
@@ -116,7 +116,7 @@ const activityData = {
                     id: 18,
                     title: 'Dusting',
                     description: 'Dust from top to bottom with microfiber cloth, and clean TV.',
-                    //image: require('./assets/dusting.jpg'),
+                    image: require('../assets/House/LivingArea.jpg'),
                   },
                   {
                     id: 19,
@@ -144,7 +144,7 @@ const activityData = {
                     id: 1,
                     title: 'Dusting',
                     description: 'Dust all furniture.',
-                    //image: require('./assets/dusting.jpg'),
+                    image: require('../assets/Apartment/Bedroom.jpg'),
                   },
                   {
                     id: 2,
@@ -183,7 +183,7 @@ const activityData = {
                     id: 7,
                     title: 'Dusting',
                     description: 'Dust all surfaces, including light fixtures and decor.',
-                    //image: require('./assets/dusting.jpg'),
+                    image: require('../assets/Apartment/Bathroom.jpg'),
                   },
                   {
                     id: 8,
@@ -222,7 +222,7 @@ const activityData = {
                       id: 13,
                       title: 'Dusting',
                       description: 'Dust tops of kitchen cabinets and appliances.',
-                      //image: require('./assets/dusting.jpg'),
+                      image: require('../assets/Apartment/Kitchen.jpg'),
                     },
                     {
                       id: 14,
@@ -255,7 +255,7 @@ const activityData = {
                       id: 18,
                       title: 'Dusting',
                       description: 'Dust from top to bottom with microfiber cloth, and clean TV.',
-                      //image: require('./assets/dusting.jpg'),
+                      image: require('../assets/Apartment/LivingArea.jpg'),
                     },
                     {
                       id: 19,

@@ -6,6 +6,10 @@ const ContactScreen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Contact us</Text>
+      <Text>Please contact us if you have any question and need help. 
+        {'\n'}
+      </Text>
+      <Text>We can be reached at: {'\n'}</Text>
 
       {/* Phone */}
       <View style={styles.contactRow}>
