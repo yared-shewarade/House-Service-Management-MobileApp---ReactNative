@@ -16,7 +16,7 @@ export default function App() {
     <NavigationContainer>
       <View style={styles.container}>
         <View style={styles.header}>
-          <Text style={styles.mainTitle}>Commercial Cleaning Service</Text>
+          <Text style={styles.mainTitle}>House Management Service</Text>
           <Image source={require('./assets/HouseCleanImage.png')} style={styles.logo} />
         </View>
         <Tab.Navigator
@@ -38,18 +38,18 @@ export default function App() {
               return (
                 <Ionicons
                   name={iconName}
-                  size={focused ? 30 : 26} // Customize the size based on focus
-                  color={focused ? 'red' : 'blue'} // Customize the color based on focus
-                  style={{ width: 30, fontWeight: 'bold' }} // Customize the width of the icon
+                  size={focused ? 30 : 26}
+                  color={focused ? 'red' : 'blue'}
+                  style={{ width: 30, fontWeight: 'bold' }}
                 />
               );
             },
           })}
-          screenOptions={{
-            tabBarActiveTintColor: 'green',
-            tabBarInactiveTintColor: 'gray',
-            tabBarShowIcon: true,
-            tabBarStyle: { backgroundColor: 'lightblue' },
+          tabBarOptions={{
+            activeTintColor: 'green',
+            inactiveTintColor: 'gray',
+            showIcon: true,
+            style: { backgroundColor: 'lightblue' },
           }}
         >
           <Tab.Screen name="Home" component={HomeScreen} />
@@ -76,12 +76,14 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: 'bold',
     color: 'blue',
-    marginBottom: 10,
-    //textDecorationLine: 'underline', // Add underline to the mainTitle
+    marginTop: 30,
+    marginBottom: 0,
+    //textDecorationLine: 'underline',
   },
   logo: {
     width: '100%',
     height: 200,
-    marginBottom: 10,
+    //borderRadius: 50,
+    marginBottom: 0,
   },
 });

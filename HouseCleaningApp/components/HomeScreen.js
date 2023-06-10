@@ -5,7 +5,7 @@ import { View, Text, StyleSheet, ScrollView } from 'react-native';
 const HomeScreen = () => {
   return (
     <View style={styles.container}>
-    <Text style={styles.title}>Welcome to  Commercial Cleaning Service</Text>
+    <Text style={styles.title}>Welcome to House Management Service</Text>
     <ScrollView style={styles.scrollContainer}>
     <Text style={styles.subtitle}>This app is a housing cleaning 
     service app designed by 
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     color: 'black'
   },
   title: {
-    fontSize: 25,
+    fontSize: 28,
     fontWeight: 'bold',
     marginTop: 10,
     marginBottom: 10,
